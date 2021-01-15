@@ -1,6 +1,6 @@
 _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
-- Take a look in Branch for other version [pixijs or Vanilla]
+- Voir les `branch` de ce repo pour d'autre versions [pixijs or Vanilla]
 
 # NW.js SnowPack Boilerplate
 
