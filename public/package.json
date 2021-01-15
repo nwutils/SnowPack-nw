@@ -5,8 +5,6 @@
   "main": "index.html",
   "author": "Jonathan Lepage",
   "license": "MIT",
-  "comment": "--enable-node-worker will break Types for Monaco code editor  // --disable-web-security --user-data-dir=dist/chrome  pour les policy: --disable-web-security --allow-file-access-from-files --allow-file-access --user-data-dir --allow-running-insecure-content --enable-local-file-accesses",
-  "chromium-args": " --enable-webvr --webxr --enable-gamepad-extensions --enable-gamepad-vibration --enable-spell-checking --remote-debugging-port=9222 --load-extension='./plugins/pixi_devtools','./plugins/React_Developer_Tools'",
   "window": {
     "frame": false,
     "toolbar": false,

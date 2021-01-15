@@ -4,6 +4,7 @@
   "description": "snowpack",
   "main": "http://localhost:8080",
   "node-remote": "http://localhost:8080",
+  "chromium-args": "--enable-spell-checking --remote-debugging-port=9222",
   "scripts": {
     "postinstall": "cd ./node_modules/nw  &&  npm install --nwjs_build_type=sdk",
     "start-nw": "concurrently \"npm run snowpack-nw\" \"npm run nw\"",
