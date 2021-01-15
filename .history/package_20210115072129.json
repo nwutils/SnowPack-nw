@@ -12,9 +12,5 @@
     "commander": "^6.2.1",
     "nw": "^0.50.2",
     "nw-builder": "^3.5.7"
-  },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   }
 }
