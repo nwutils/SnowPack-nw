@@ -1,8 +1,8 @@
 _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
-# NW.js SnowPack Boilerplate
+# NW.js SnowPack Boilerplate with Pixijs
 
-Boilerplate for start multi desktop App development using SnowPack and react.
+Boilerplate for start multi desktop App development using SnowPack and React + Pixijs.
 
 ## Features
 
@@ -12,6 +12,7 @@ Boilerplate for start multi desktop App development using SnowPack and react.
 - HOT && HMR reloading of browser and desktop (Nwjs, React)
 - Node.js (Native with NW.js)
 - Live debug in Vscode with `--remote-debugging-port=9222`
+- PixiJs as webgl renderer for gpu.
 
 ## Environment setup
 

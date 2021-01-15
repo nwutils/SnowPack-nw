@@ -20,7 +20,7 @@
     "postinstall": "cd ./node_modules/nw  &&  npm install --nwjs_build_type=sdk",
     "start": "concurrently \"npm run start-web\" \"npm run nw\"",
     "start-nw": "concurrently \"npm run dev\" \"npm run nw\"",
-    "start-web": "snowpack dev",
+    "start-web": "snowpack dev --polyfill-node",
     "dev": "snowpack dev --open none",
     "nw": "nw . --remote-debugging-port=9222",
     "build": "npm run build-web &&  npm run build-nw",
@@ -38,6 +38,7 @@
     "@types/nw.js": "^0.13.11"
   },
   "dependencies": {
+    "pixi.js": "^5.3.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
