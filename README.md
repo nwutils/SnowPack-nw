@@ -21,14 +21,18 @@ Boilerplate for start multi desktop App development using SnowPack and react.
 
 - **Desktop App:** Dev for desktop only (nwjs+nodejs)
   - `npm run start-nw`
-- **Web App:** Dev for web only (wihout nodejs)
+- **Web App:** Dev for web only (wihout nwjs+nodejs)
   - `npm start-web`
+- **Web &Desktop App:** Dev both web and desktop
+  - `npm run start`
 
 ## Build for production
 
+- **Web & Desktop App:** Build final app for all browsers and desktop
+  - `npm run build`
 - **Desktop App:** Build final app for desktop (x64, x86, Windows, Linux, OSX)
   - `npm run build-nw`
-- **Web App:** Build final app for browsers
+- **Web App:** Build final app for all browsers only
   - `npm run build-web`
 
 ---
