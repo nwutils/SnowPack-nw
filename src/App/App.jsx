@@ -1,7 +1,7 @@
 import React from "react";
 export const App = () => {
-  const P = 8;
   const isInNwjsEnv = !!globalThis.nw;
+  console.log(`🚀 | isInNwjsEnv`, isInNwjsEnv);
   return (
     <div className='App'>
       <div className='App'>Hello World</div>
