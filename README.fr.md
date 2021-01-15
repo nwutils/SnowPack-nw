@@ -1,5 +1,7 @@
 _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
+- Take a look in Branch for other version [pixijs or Vanilla]
+
 # NW.js SnowPack Boilerplate
 
 Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs et React comme FrontEnd.
