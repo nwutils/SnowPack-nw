@@ -1,3 +1,5 @@
+_Read this in other languages: [English](README.md), [French](README.fr.md)._
+
 # NW.js SnowPack Boilerplate
 
 Boilerplate for start multi desktop App development using SnowPack and react.
