@@ -34,7 +34,8 @@
     "commander": "^7.0.0",
     "nw": "^0.50.3",
     "nw-builder": "^3.5.7",
-    "snowpack": "^3.0.10"
+    "snowpack": "^3.0.10",
+    "@types/nw.js": "^0.13.11"
   },
   "dependencies": {
     "react": "^17.0.1",
