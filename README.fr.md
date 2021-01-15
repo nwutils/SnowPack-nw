@@ -2,14 +2,14 @@ _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
 # NW.js SnowPack Boilerplate
 
-Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs et React comme FrontEnd.
+Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs en vanilla js et html.
 
 ## Features
 
 - SnowPack Bundlers (ultra performant 25ms)!
 - Builds pour toute les navigateurs (Chrome, Edge, FireFox...)
 - Builds pour toute les achhitectures de bureau (x86, x64, Windows, OSX, Linux...)
-- HOT && HMR (Nwjs, React)
+- HOT && HMR (Nwjs)
 - Node.js (Native dans Nwjs)
 - Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
 
