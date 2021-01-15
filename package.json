@@ -2,17 +2,25 @@
   "name": "snowpack-nw",
   "version": "1.0.0",
   "description": "snowpack",
-  "main": "index.js",
+  "main": "http://localhost:8080",
+  "node-remote": "http://localhost:8080",
   "scripts": {
     "postinstall": "cd ./node_modules/nw  &&  npm install --nwjs_build_type=sdk",
-    "start": "parcel src/index.html --no-autoinstall"
+    "start-nw": "concurrently \"npm run snowpack-nw\" \"npm run nw\"",
+    "snowpack-nw": "snowpack dev --open none",
+    "nw": "nw . --remote-debugging-port=9222",
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "build-nw": "nwbuild --platforms win32,win64,linux64,osx64 --buildDir build/ dist/",
+    "nw-test-dist": "nw ./dist --remote-debugging-port=9222"
   },
   "author": "Jonathan Lepage",
   "license": "MIT",
   "devDependencies": {
     "commander": "^7.0.0",
     "nw": "^0.50.3",
-    "nw-builder": "^3.5.7"
+    "nw-builder": "^3.5.7",
+    "snowpack": "^3.0.10"
   },
   "dependencies": {
     "react": "^17.0.1",

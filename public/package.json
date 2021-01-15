@@ -1,0 +1,34 @@
+{
+  "name": "my-app-name",
+  "version": "1.0.0",
+  "description": "snowpack",
+  "main": "index.html",
+  "author": "Jonathan Lepage",
+  "license": "MIT",
+  "comment": "--enable-node-worker will break Types for Monaco code editor  // --disable-web-security --user-data-dir=dist/chrome  pour les policy: --disable-web-security --allow-file-access-from-files --allow-file-access --user-data-dir --allow-running-insecure-content --enable-local-file-accesses",
+  "chromium-args": " --enable-webvr --webxr --enable-gamepad-extensions --enable-gamepad-vibration --enable-spell-checking --remote-debugging-port=9222 --load-extension='./plugins/pixi_devtools','./plugins/React_Developer_Tools'",
+  "window": {
+    "frame": false,
+    "toolbar": false,
+    "min_width": 220,
+    "min_height": 220,
+    "as_desktop": true
+  },
+  "platformOverrides": {
+    "win": {
+      "window": {}
+    },
+    "win32": {
+      "window": {}
+    },
+    "win64": {
+      "window": {}
+    },
+    "osx": {},
+    "osx32": {},
+    "osx64": {},
+    "linux": {},
+    "linux32": {},
+    "linux64": {}
+  }
+}
