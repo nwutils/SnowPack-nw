@@ -2,7 +2,7 @@ _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
 # NW.js SnowPack Boilerplate
 
-Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs et React comme FrontEnd.
+Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs Pixijs , React comme FrontEnd.
 
 ## Features
 
@@ -12,6 +12,7 @@ Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web
 - HOT && HMR (Nwjs, React)
 - Node.js (Native dans Nwjs)
 - Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
+- Pixijs comme moteur de rendu webgl.
 
 ## Environment setup
 
