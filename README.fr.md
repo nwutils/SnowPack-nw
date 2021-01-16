@@ -17,7 +17,7 @@ Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web
 
 ## PREVIEW
 
-&nbsp;<img src="https://thumbs2.imgbox.com/ae/f5/AelRurwL_t.png" width="200" />
+&nbsp;<img src="https://images2.imgbox.com/ae/f5/AelRurwL_o.png" width="200" />
 
 ## Environment setup
 
