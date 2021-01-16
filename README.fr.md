@@ -14,6 +14,10 @@ Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web
 - Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
 - Pixijs comme moteur de rendu webgl.
 
+## PREVIEW
+
+<img src="https://images2.imgbox.com/20/ed/DRWOlHh9_o.png" width="200" />
+
 ## Environment setup
 
 1. Install [Node.js and npm](https://nodejs.org) sur votre machine.

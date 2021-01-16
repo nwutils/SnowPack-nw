@@ -14,6 +14,10 @@ Boilerplate for start multi desktop App development using SnowPack and React + P
 - Live debug in Vscode with `--remote-debugging-port=9222`
 - PixiJs as webgl renderer for gpu.
 
+## PREVIEW
+
+<img src="https://images2.imgbox.com/20/ed/DRWOlHh9_o.png" width="200" />
+
 ## Environment setup
 
 1. Install [Node.js and npm](https://nodejs.org)
