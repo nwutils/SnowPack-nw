@@ -1,6 +1,6 @@
 _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
-- Take a look in `Branch` of this repo for see others version [pixijs or Vanilla]
+Take a look in `Branch` of this repo for see others version [pixijs or Vanilla]
 
 # NW.js SnowPack Boilerplate
 
@@ -14,6 +14,10 @@ Boilerplate for start multi desktop App development using SnowPack and react.
 - HOT && HMR reloading of browser and desktop (Nwjs, React)
 - Node.js (Native with NW.js)
 - Live debug in Vscode with `--remote-debugging-port=9222`
+
+## PREVIEW
+
+&nbsp;<img src="https://thumbs2.imgbox.com/ae/f5/AelRurwL_t.png" width="200" />
 
 ## Environment setup
 
