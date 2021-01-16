@@ -13,6 +13,10 @@ Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web
 - Node.js (Native dans Nwjs)
 - Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
 
+## PREVIEW
+
+<img src="https://images2.imgbox.com/9f/65/7bK6BjzR_o.png" width="200" />
+
 ## Environment setup
 
 1. Install [Node.js and npm](https://nodejs.org) sur votre machine.
