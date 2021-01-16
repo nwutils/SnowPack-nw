@@ -14,7 +14,10 @@
     "boilerPlate",
     "HMR",
     "node-webkit",
-    "nw"
+    "nw",
+    "game",
+    "app",
+    "demo"
   ],
   "scripts": {
     "postinstall": "cd ./node_modules/nw  &&  npm install --nwjs_build_type=sdk",
@@ -40,5 +43,13 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/nwutils/SnowPack-nw/issues"
+  },
+  "homepage": "https://github.com/nwutils/SnowPack-nw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwutils/SnowPack-nw.git"
   }
 }
