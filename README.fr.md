@@ -14,6 +14,7 @@ Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web
 - HOT && HMR (Nwjs, React)
 - Node.js (Native dans Nwjs)
 - Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
+- Proxi store RES
 
 ## PREVIEW
 

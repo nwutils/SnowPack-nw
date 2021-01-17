@@ -14,6 +14,7 @@ Boilerplate for start multi desktop App development using SnowPack and react.
 - HOT && HMR reloading of browser and desktop (Nwjs, React)
 - Node.js (Native with NW.js)
 - Live debug in Vscode with `--remote-debugging-port=9222`
+- Proxi store RES
 
 ## PREVIEW
 
