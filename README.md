@@ -17,7 +17,7 @@ Boilerplate for start multi desktop App development using SnowPack and react.
 
 ## PREVIEW
 
-<img src="https://images2.imgbox.com/ae/f5/AelRurwL_o.png" width="200" />
+<img src="https://images2.imgbox.com/1f/83/q0KVpUcF_o.png" width="200" />
 
 ## Environment setup
 
