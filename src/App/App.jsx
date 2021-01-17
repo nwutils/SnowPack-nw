@@ -1,15 +1,69 @@
-import React from "react";
-export const App = () => {
-  const isInNwjsEnv = !!globalThis.nw;
-  console.log(`🚀 | isInNwjsEnv`, isInNwjsEnv);
+import React, { useState } from "react";
+import { view } from "@risingstack/react-easy-state";
+import { Box } from "../components/Box/Box";
+
+export const App = view(() => {
+  const P = 8;
   return (
-    <div className='App'>
-      <div className='App'>Hello World</div>
-      <div className='App'>edit src/index.jsx</div>
-      <div className='App'>
-        Nwjs is {isInNwjsEnv ? "avaible" : "not avaible"}
-      </div>
-      <img src='./src/image/logo.png' />
-    </div>
+    <Box className='App' Flex Column Fit>
+      App - global store
+      <Box P={P} Flex className='header' ColorBg='#509050'>
+        <Box P={P} className='menueOs' ColorBg='#402020'>
+          MenueOs
+        </Box>
+        <Box P={P} Grow className='title' ColorBg='#306050'>
+          Title project
+        </Box>
+        <Box P={P} className='buttonOs' ColorBg='#111190'>
+          ButtonOs
+        </Box>
+      </Box>
+      <Box P={P} className='body2' Flex Grow ColorBg='#202020'>
+        <Box P={P} className='left-panel' Flex ColorBg='#509050'>
+          <Box P={P} className='Activity' Flex ColorBg='#f95452'></Box>
+          <Box
+            P={P}
+            Flex
+            className='Render'
+            OverflowY='scroll'
+            ColorBg='#909090'>
+            Render
+          </Box>
+        </Box>
+        <Box P={P} className='center' Grow Column ColorBg='#902020'>
+          <Box P={P} className='Navigation' ColorBg='#902090'>
+            Navigation
+          </Box>
+          <Box P={P} className='render' Flex Grow ColorBg='#556688'>
+            <Box
+              P={P}
+              className='render'
+              OverflowX
+              OverflowY
+              Grow
+              ColorBg='#909090'>
+              render
+            </Box>
+            <Box P={P} className='rigth' Column ColorBg='#509050'>
+              <Box P={P} className='Activity' Flex ColorBg='#902090'>
+                Auto Activity
+              </Box>
+              <Box
+                P={P}
+                className='Render'
+                Flex
+                Grow
+                OverflowY
+                ColorBg='#909090'>
+                Render
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+      <Box P={P} className='Footer' ColorBg='#206080'>
+        Footer
+      </Box>
+    </Box>
   );
-};
+});
