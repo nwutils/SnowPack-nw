@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { view } from "@risingstack/react-easy-state";
 import { Box } from "../components/Box/Box";
+import { App_store } from "./App.store";
 
 export const App = view(() => {
-  const P = 8;
+  const { _buzy, P } = App_store;
   return (
     <Box className='App' Flex Column Fit>
-      App - global store
+      App - global stores
       <Box P={P} Flex className='header' ColorBg='#509050'>
         <Box P={P} className='menueOs' ColorBg='#402020'>
           MenueOs
