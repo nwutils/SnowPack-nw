@@ -68,3 +68,6 @@ export const App = view(() => {
     </Box>
   );
 });
+console.log(`🚀 | App`, (App.displayName = "zzzzzzzzzzz"));
+App.name = "zzzzzzzzzzz";
+console.log(`🚀 | App`, App);

@@ -4,7 +4,14 @@
   "description": "snowpack nwjs react app",
   "main": "http://localhost:8080",
   "node-remote": "http://localhost:8080",
-  "chromium-args": "--enable-spell-checking --remote-debugging-port=9222",
+  "chromium-args": "--enable-spell-checking --remote-debugging-port=9222 --load-extension='./plugin/fmkadmapgofadopljbjfkapdkoienihi/4.10.1_0' ",
+  "window": {
+    "frame": true,
+    "toolbar": false,
+    "min_width": 220,
+    "min_height": 220,
+    "as_desktop": true
+  },
   "keywords": [
     "nwJs",
     "PixiJs",

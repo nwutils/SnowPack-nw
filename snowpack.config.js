@@ -29,13 +29,13 @@ module.exports = {
    * @type { Object.<string, string[]> }
    * @see https://www.snowpack.dev/reference/configuration#packageoptions */
   // packageOptions: {
-  //   namedExports: [],
+  //   source: "remote",
   // },
 
   /** - Configure import aliases for directories and packages.
    * @type { Object.<string, string> }
    * @see https://www.snowpack.dev/reference/configuration#alias */
-  // alias: {},
+  // alias: { "@plug": "./plugin/fmkadmapgofadopljbjfkapdkoienihi/4.10.1_0" },
 
   /** - Exclude any files from the Snowpack pipeline.
    * @type { Array<string> }

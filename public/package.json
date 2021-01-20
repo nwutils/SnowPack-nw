@@ -5,6 +5,7 @@
   "main": "index.html",
   "author": "Jonathan Lepage",
   "license": "MIT",
+  "chromium-args": "--enable-spell-checking ",
   "window": {
     "frame": false,
     "toolbar": false,
