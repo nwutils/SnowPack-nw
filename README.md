@@ -5,20 +5,23 @@ Take a look in `Branch` of this repo for see others version [pixijs or Vanilla]
 # NW.js SnowPack Boilerplate
 
 Boilerplate for start multi desktop App development using SnowPack and react.
+FullStack with store serverless using Proxi.
 
 ## Features
 
 - SnowPack Bundlers (crazy 25ms bundlers)!
-- Builds for all majors Browsers (Chrome, Edge, FireFox...)
-- Builds for all majors Desktops achhitectures (x86, x64, Windows, OSX, Linux...)
-- HOT && HMR reloading of browser and desktop (Nwjs, React)
-- Node.js (Native with NW.js)
-- Live debug in Vscode with `--remote-debugging-port=9222`
-- Proxi store RES
+- Builds for all majors Browsers (Chrome, Edge, FireFox...).
+- Builds for all majors Desktops achhitectures (x86, x64, Windows, OSX, Linux...).
+- HOT && HMR reloading of browser and desktop (Nwjs, React).
+- Node.js (Native with NW.js).
+- Live debug in Vscode with `--remote-debugging-port=9222`.
+- Proxi store RES.
+- Pixijs for rendering engine.
+- Plugins devtool React,Pixi.
 
 ## PREVIEW
 
-<img src="https://images2.imgbox.com/1f/83/q0KVpUcF_o.png" width="200" />
+<img src="https://images2.imgbox.com/c1/a0/4cc6xJlO_o.png" width="200" />
 
 ## Environment setup
 

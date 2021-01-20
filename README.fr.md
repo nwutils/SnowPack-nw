@@ -5,20 +5,23 @@ _Read this in other languages: [English](README.md), [French](README.fr.md)._
 # NW.js SnowPack Boilerplate
 
 Boilerplate pour démarrer le développement d'applications Multi-Desktop et Web avec Snowpack , Nwjs et React comme FrontEnd.
+FullStack avec store serverless utilisant des Proxies.
 
 ## Features
 
 - SnowPack Bundlers (ultra performant 25ms)!
-- Builds pour toute les navigateurs (Chrome, Edge, FireFox...)
-- Builds pour toute les achhitectures de bureau (x86, x64, Windows, OSX, Linux...)
-- HOT && HMR (Nwjs, React)
-- Node.js (Native dans Nwjs)
-- Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`
-- Proxi store RES
+- Builds pour toute les navigateurs (Chrome, Edge, FireFox...).
+- Builds pour toute les achhitectures de bureau (x86, x64, Windows, OSX, Linux...).
+- HOT && HMR (Nwjs, React).
+- Node.js (Native dans Nwjs).
+- Live debug avec Vscode pour nwjs `--remote-debugging-port=9222`.
+- Proxi store RES.
+- Pixijs comme moteur de rendu.
+- Plugins devtool React,Pixi.
 
 ## PREVIEW
 
-&nbsp;<img src="https://images2.imgbox.com/1f/83/q0KVpUcF_o.png" width="200" />
+&nbsp;<img src="https://images2.imgbox.com/c1/a0/4cc6xJlO_o.png" width="200" />
 
 ## Environment setup
 
