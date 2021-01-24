@@ -21,7 +21,7 @@
     "start": "concurrently \"npm run start-web\" \"npm run nw\"",
     "start-nw": "concurrently \"npm run dev\" \"npm run nw\"",
     "start-web": "snowpack dev --polyfill-node",
-    "dev": "snowpack dev --open none",
+    "dev": "snowpack dev --polyfill-node --open none",
     "nw": "nw . --remote-debugging-port=9222",
     "build": "npm run build-web &&  npm run build-nw",
     "build-web": "snowpack build",
