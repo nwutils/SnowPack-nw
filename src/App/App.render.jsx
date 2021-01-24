@@ -1,10 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { view } from "@risingstack/react-easy-state";
 import { Box } from "../components/Box/Box";
 import { App_store } from "./App.store";
+import * as PIXI from "pixi.js";
+const pixiApp = new PIXI.Application({ backgroundColor: 0x1099bb });
+window.PIXI = PIXI; // allow plugin devTool and pixijs plugins
 
 export const App = view(() => {
+  // document.getElementById("pixiApp").appendChild(pixiApp.view); // for instant mount
   const { _buzy, P } = App_store;
+  const ref = useRef(null);
+  useEffect(() => {
+    // On first render add app to DOM
+    ref.current.appendChild(pixiApp.view);
+    // Start the PixiJS app
+    pixiApp.start();
+  }, []);
   return (
     <Box className='App' Flex Column Fit>
       App - global stores
@@ -19,7 +30,7 @@ export const App = view(() => {
           ButtonOs
         </Box>
       </Box>
-      <Box P={P} className='body2' Flex Grow ColorBg='#202020'>
+      <Box P={P} className='body2' Flex Fit Grow ColorBg='#202020'>
         <Box P={P} className='left-panel' Flex ColorBg='#509050'>
           <Box P={P} className='Activity' Flex ColorBg='#f95452'></Box>
           <Box
@@ -31,18 +42,19 @@ export const App = view(() => {
             Render
           </Box>
         </Box>
-        <Box P={P} className='center' Grow Column ColorBg='#902020'>
+        <Box P={P} className='center' Flex Grow Fit Column ColorBg='#902020'>
           <Box P={P} className='Navigation' ColorBg='#902090'>
             Navigation
           </Box>
-          <Box P={P} className='render' Flex Grow ColorBg='#556688'>
+          <Box P={P} className='render' Flex Grow Fit ColorBg='#556688'>
             <Box
               P={P}
               className='render'
               OverflowX
               OverflowY
               Grow
-              ColorBg='#909090'>
+              ColorBg='#909090'
+              ref={ref}>
               render
             </Box>
             <Box P={P} className='rigth' Column ColorBg='#509050'>
@@ -62,12 +74,9 @@ export const App = view(() => {
           </Box>
         </Box>
       </Box>
-      <Box P={P} className='Footer' ColorBg='#206080'>
+      <Box P={P} className='Footer' Flex ColorBg='#206080'>
         Footer
       </Box>
     </Box>
   );
 });
-console.log(`🚀 | App`, (App.displayName = "zzzzzzzzzzz"));
-App.name = "zzzzzzzzzzz";
-console.log(`🚀 | App`, App);

@@ -9,8 +9,15 @@
       "request": "attach",
       "name": "Attach to NWjs",
       "port": 9222,
-      // "webRoot": "${workspaceFolder}/public/_dist_",
-      "reloadAfterAttached": true
+      "webRoot": "${workspaceFolder}/_dist_",
+      "reloadAfterAttached": true,
+      "sourceMaps": true,
+      "skipFiles": [
+        "<node_internals>/**/*.js",
+        "injectGlobalHook.js",
+        "/_snowpack/**/*.js",
+        "/build/**/*.js"
+      ]
     }
   ]
 }

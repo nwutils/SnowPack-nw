@@ -48,7 +48,7 @@ export const Box = React.forwardRef(
    * @typedef {props & React.HTMLAttributes<HTMLDivElement>  } Child
    * @param {Child} props Component props
    */
-  (
+  function Box(
     {
       Flex,
       Column,
@@ -66,7 +66,7 @@ export const Box = React.forwardRef(
       ...rest
     },
     ref
-  ) => {
+  ) {
     if (Flex || Column) {
       style.display = style.display || "flex";
     }

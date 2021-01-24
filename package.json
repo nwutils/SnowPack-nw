@@ -4,7 +4,7 @@
   "description": "snowpack nwjs react app",
   "main": "http://localhost:8080",
   "node-remote": "http://localhost:8080",
-  "chromium-args": "--enable-spell-checking --remote-debugging-port=9222 --load-extension='./plugin/fmkadmapgofadopljbjfkapdkoienihi/4.10.1_0' ",
+  "chromium-args": "--enable-spell-checking --remote-debugging-port=9222 --load-extension='./plugin/fmkadmapgofadopljbjfkapdkoienihi/4.10.1_0','./plugin/aamddddknhcagpehecnhphigffljadon/0.9.3_0' ",
   "window": {
     "frame": true,
     "toolbar": false,
@@ -31,26 +31,43 @@
     "start": "concurrently \"npm run start-web\" \"npm run nw\"",
     "start-nw": "concurrently \"npm run dev\" \"npm run nw\"",
     "start-web": "snowpack dev --polyfill-node",
-    "dev": "snowpack dev --open none",
+    "dev": "snowpack dev --polyfill-node --open none",
     "nw": "nw . --remote-debugging-port=9222",
     "build": "npm run build-web &&  npm run build-nw",
     "build-web": "snowpack build",
     "build-nw": "nwbuild --platforms win32,win64,linux64,osx64 --buildDir build/ dist/",
+    "clear": "rmdir /s /q node_modules",
     "nw-test-dist": "nw ./dist --remote-debugging-port=9222"
   },
   "author": "Jonathan Lepage",
   "license": "MIT",
   "devDependencies": {
     "commander": "^7.0.0",
-    "nw": "^0.50.3",
+    "nw": "^0.51.0",
     "nw-builder": "^3.5.7",
     "snowpack": "^3.0.11",
     "@types/nw.js": "^0.13.11"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.4.0",
+    "@handsontable/react": "^4.0.0",
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@risingstack/react-easy-state": "^6.3.0",
+    "@scena/ruler": "^0.7.0",
+    "antd": "^4.10.3",
+    "dependency-tree": "^8.0.0",
+    "gsap": "^3.6.0",
+    "handsontable": "^8.2.0",
+    "lodash": "^4.17.20",
+    "madge": "^4.0.0",
+    "notevil": "^1.3.3",
+    "pixi.js": "^5.3.7",
     "react": "^17.0.1",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.1",
-    "@risingstack/react-easy-state": "^6.3.0"
+    "react-grid-layout": "^1.2.0",
+    "react-zoom-pan-pinch": "^1.6.1"
   },
   "bugs": {
     "url": "https://github.com/nwutils/SnowPack-nw/issues"
