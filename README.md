@@ -2,20 +2,20 @@ _Read this in other languages: [English](README.md), [French](README.fr.md)._
 
 # NW.js SnowPack Boilerplate
 
-Boilerplate for start multi desktop App development using SnowPack and vanilla js html.
+Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla JS/HTML.
 
 ## Features
 
-- SnowPack Bundlers (crazy 25ms bundlers)!
+- SnowPack Bundlers (crazy 25ms bundler)!
 - Builds for all majors Browsers (Chrome, Edge, FireFox...)
-- Builds for all majors Desktops achhitectures (x86, x64, Windows, OSX, Linux...)
-- HOT && HMR reloading of browser and desktop (Nwjs)
+- Builds for all majors Desktops architectures (x86, x64, Windows, OSX, Linux...)
+- Hot & HMR reloading of browser and desktop (NW.js)
 - Node.js (Native with NW.js)
-- Live debug in Vscode with `--remote-debugging-port=9222`
+- Live debug in VSCode with `--remote-debugging-port=9222`
 
 ## PREVIEW
 
-<img src="https://images2.imgbox.com/9f/65/7bK6BjzR_o.png" width="200" />
+<img src="https://images2.imgbox.com/9f/65/7bK6BjzR_o.png" width="200" alt="Preview screenshot showing the Hello World app running in a browser and a desktop app, with a message conveying if the NW.js API is available in that environment" />
 
 ## Environment setup
 
@@ -25,12 +25,12 @@ Boilerplate for start multi desktop App development using SnowPack and vanilla j
 
 ## Development
 
-- **Desktop App:** Dev for desktop only (nwjs+nodejs)
+- **Desktop App:** Dev for desktop only (with NW.js + Node.js)
   - `npm run start-nw`
-- **Web App:** Dev for web only (wihout nwjs+nodejs)
-  - `npm start-web`
+- **Web App:** Dev for web only (without NW.js + Node.js)
+  - `npm run start-web`
 - **Web &Desktop App:** Dev both web and desktop
-  - `npm run start`
+  - `npm start`
 
 ## Build for production
 
@@ -45,10 +45,10 @@ Boilerplate for start multi desktop App development using SnowPack and vanilla j
 
 # Documentation
 
-- `npm run build-web` will build in dist
-- `npm run build-nw` will `build-web` in `dist` than build destop in `build` folder.
+- `npm run build-web` will build in `dist`
+- `npm run build-nw` will `build-web` in `dist` then build desktop in `build` folder.
 - `src` folder is where you code your app
-- Nwjs will be installed locally in `node_modules`
-- Nwjs will cache download & SDK in `node_module`
-- `package.json` inside `./public`, is where you setting your final build.
-- `package.json` inside `root`, is where you setting nwjs for dev.
+- NW.js will be installed locally in `node_modules`
+- NW.js will cache download and SDK in `node_module`
+- `package.json` inside `./public`, contains settings for your final build.
+- `package.json` inside `root`, contains settings for NW.js development.
