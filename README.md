@@ -19,9 +19,9 @@ Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla
 
 ## Environment setup
 
-1. Install [Node.js and npm](https://nodejs.org)
-2. Download, clone, or fork this repo
-3. Run `npm install` or `npm i` in the folder of this repo.
+1. Install [Node.js and npm](https://nodejs.org).
+2. Download, clone, or fork this repo.
+3. Run `npm install` in the root folder of this repo.
 
 ## Development
 
@@ -45,10 +45,10 @@ Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla
 
 # Documentation
 
-- `npm run build-web` will build in `dist`
+- `npm run build-web` will build in `dist`.
 - `npm run build-nw` will `build-web` in `dist` then build desktop in `build` folder.
-- `src` folder is where you code your app
-- NW.js will be installed locally in `node_modules`
-- NW.js will cache download and SDK in `node_module`
+- `src` folder is where you code your app.
+- NW.js will be installed locally in `node_modules`.
+- NW.js will cache download and SDK in `node_module`.
 - `package.json` inside `./public`, contains settings for your final build.
 - `package.json` inside `root`, contains settings for NW.js development.
