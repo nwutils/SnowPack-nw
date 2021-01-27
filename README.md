@@ -6,9 +6,9 @@ Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla
 
 ## Features
 
-- SnowPack Bundlers (crazy 25ms bundler)!
-- Builds for all majors Browsers (Chrome, Edge, FireFox...)
-- Builds for all majors Desktops architectures (x86, x64, Windows, OSX, Linux...)
+- SnowPack bundler (crazy 25ms bundler)!
+- Builds for all major Browsers (Chrome, Edge, FireFox...)
+- Builds for all major Desktops architectures (x86, x64, Windows, OSX, Linux...)
 - Hot & HMR reloading of browser and desktop (NW.js)
 - Node.js (Native with NW.js)
 - Live debug in VSCode with `--remote-debugging-port=9222`
@@ -20,8 +20,8 @@ Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla
 ## Environment setup
 
 1. Install [Node.js and npm](https://nodejs.org).
-2. Download, clone, or fork this repo.
-3. Run `npm install` in the root folder of this repo.
+1. Download, clone, or fork this repo.
+1. Run `npm install` in the root folder of this repo.
 
 ## Development
 
