@@ -29,7 +29,7 @@ Boilerplate for creating a cross-platform desktop App using SnowPack and vanilla
   - `npm run start-nw`
 - **Web App:** Dev for web only (without NW.js + Node.js)
   - `npm run start-web`
-- **Web &Desktop App:** Dev both web and desktop
+- **Web & Desktop App:** Dev both web and desktop
   - `npm start`
 
 ## Build for production
